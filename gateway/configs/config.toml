@@ -23,3 +23,11 @@ enabled = true
 username = "admin"
 password = "admin"
 roles = ["admin"]
+
+[apim.ai.embedding_provider]
+type = "mistral"
+[apim.ai.embedding_provider.properties]
+apikey = "md2w1AywUd8xnZDEr80TX2gOYgmuQ37V"
+embedding_endpoint = "https://api.mistral.ai/v1/embeddings"
+embedding_model = "mistral-embed"
+
